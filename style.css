@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0px;
+      box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+  
+    background-color: 
+#33ccc5;
+
+}
+nav>ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 45px;
+    
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav>ul>li{
+    list-style: none;
+    
+    
+}
+nav a{
+    text-decoration: none;
+}
+nav>ul :first-child{
+    margin-right: auto;
+    
+
+}
+nav>ul :first-child a>h1{
+    padding-left: 100px;
+    
+
+}
+nav>ul>li a{
+    color: white;
+}
+
+nav ul li:first-child a {
+    display: flex;
+    align-items: center;
+    gap: 3px; /* space between image and h1 */
+    text-decoration: none;
+
+}
+nav>ul>li>a>img{
+    padding-bottom: 15px;
+}
+nav ul li:last-child{
+    
+    margin-right: 60px;
+}
+.nav-op:hover{
+    color: #4771cb;
+}
+nav ul li:last-child button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+        background-color: 
+
+#4771cb;
+  box-shadow: 0 2px 0 0 white; /* white strip at bottom */
+ 
+}
+nav ul li:last-child button:hover{
+    color: rgb(20, 165, 227);
+    background-color: 
+#ffffff;
+cursor: pointer;
+box-shadow: 0 2px 0 0 #4771cb;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    gap: px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+     background-image: url(banner-dec-right.png), url(banner-dec-left.png) ;
+     background-size: auto 100vh;
+     background-repeat: no-repeat, no-repeat;
+     background-position:400px 0px , -50px -100px;
+    
+     
+     
+
+
+   
+    
+}
+.hero-section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    gap: 40px;
+   
+
+   
+}
+.top-text{
+    display: flex;
+    
+    gap: 90px;
+
+}
+.second-text{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+}
+.hero .image img {
+    margin-left: 100px; /* adjust as needed */
+    
+}
+.hero .button button {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    background-color: 
+#33ccc5;
+  box-shadow: 0 2px 0 0 #365bb5; /* white strip at bottom */
+ 
+}
+.hero .button button:hover {
+    background-color: #365bb5; /* darker hover */
+   
+    cursor: pointer;
+box-shadow: 0 2px 0 0 #33ccc5;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 50px;
+}
+.second{
+    margin-left: 15px;
+}
+.third{
+    margin-left: 70px;
+}
+.text-flex{
+    display: flex;
+    gap: 70px;
+ 
+}
+
+.btn{
+        width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    background-color: 
+#33ccc5;
+  box-shadow: 0 2px 0 0 #365bb5; /* white strip at bottom */
+}
+.btn:hover{
+        background-color: #365bb5; /* darker hover */
+   
+    cursor: pointer;
+box-shadow: 0 2px 0 0 #33ccc5;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.text-gap{
+padding-top: 45px;
+height: auto;
+width: 500px;
+
+
+}
+.text-flex2{
+    display: flex;
+    gap: 32px;
+}
+.awards{
+    padding-left: 20px;
+}
+.card{
+    display: flex;
+    width: 27%;
+    height: 200px;
+    gap: 50px;
+    align-items: center;
+    border: 1px solid rgba(230, 223, 223, 0.625);
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+
+
+
+}
+.card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+.card-wrapper{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-top: 50px;
+
+
+
+}
+.card{
+    margin-top: 20px;
+}
